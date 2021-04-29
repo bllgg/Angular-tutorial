@@ -15,7 +15,6 @@ export class HeroesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.selectedHero);
   }
 
   
@@ -25,7 +24,6 @@ export class HeroesComponent implements OnInit {
 
   onClear(): void{
     this.selectedHero = undefined;
-    console.log(this.selectedHero);
   }
 
 }
